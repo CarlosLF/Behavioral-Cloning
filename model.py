@@ -55,12 +55,11 @@ def nvidia_model():
 	return model
 
 def change_brightness(image):
-    image1 = cv2.cvtColor(image,cv2.COLOR_RGB2HSV)
+    image = cv2.cvtColor(image,cv2.COLOR_RGB2HSV)
     random_bright = .25+np.random.uniform()
-    #print(random_bright)
-    image1[:,:,2] = image1[:,:,2]*random_bright
-    image1 = cv2.cvtColor(image1,cv2.COLOR_HSV2RGB)
-    return image1
+    image[:,:,2] = image[:,:,2]*random_bright
+    image = cv2.cvtColor(image,cv2.COLOR_HSV2RGB)
+    return image
 
 def trans_image(image,angle,r):
 	rows,cols,channels = image.shape
