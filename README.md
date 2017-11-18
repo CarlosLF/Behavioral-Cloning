@@ -85,5 +85,5 @@ To test the network we have to run the simulator in autonomous mode, then we hav
 The driving results are shown in the file video.mp4
 
 ## Conclusions
-The algorithm was initially tested using the LeNet arquitecture, however we get the best results using the NVIDIA arquitecture. The trained neural network is able to drive a full lap in the first track [VIDEO](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/).
+The algorithm was initially tested using the LeNet arquitecture, however we get the best results using the NVIDIA arquitecture. The trained neural network is able to drive a full lap in the first track [VIDEO](https://github.com/CarlosLF/Behavioral-Cloning/blob/master/video.mp4).
 
