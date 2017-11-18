@@ -6,7 +6,7 @@ In this project we use deep learning techniques to teach a car to drive autonoum
 
 ## Network model
 
-The model is based on the NVIDIA model arquitecture, with the adition of a dropout to decrease overfittiong.
+The model is based on the NVIDIA model arquitecture, with the adition of a dropout to decrease overfitting.
 
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #
