@@ -6,7 +6,7 @@ In this project we use deep learning techniques to teach a car to drive autonoum
 
 ## Network model
 
-The model is based on the NVIDIA model arquitecture, with the adition of a dropout to decrease overfitting.
+The model is based on the NVIDIA model arquitecture [NVIDIA MODEL](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/), with the adition of a dropout to decrease overfitting.
 
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #
@@ -83,4 +83,7 @@ To test the network we have to run the simulator in autonomous mode, then we hav
 **python drive.py**
 
 The driving results are shown in the file video.mp4
+
+## Conclusions
+The algorithm was initially tested using the LeNet arquitecture, however we get the best results using the NVIDIA arquitecture. The trained neural network is able to drive a full lap in the first track [VIDEO](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/).
 
